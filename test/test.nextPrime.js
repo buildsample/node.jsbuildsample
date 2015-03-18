@@ -9,6 +9,6 @@ suite('nextPrime', function() {
 
   test('zero and one are not prime numbers', function() {
     assert.equal(2, nextPrime(0));
-    assert.equal(2, nextPrime(1));
+    assert.equal(3, nextPrime(1));
   });
 });
